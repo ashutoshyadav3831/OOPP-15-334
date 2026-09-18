@@ -8,5 +8,5 @@ int main()
     *newsalary = *newsalary + *newsalary / 10;
     cout << salary;
 
-  
+    return 0;
 }
