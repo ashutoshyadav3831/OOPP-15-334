@@ -26,5 +26,5 @@ int main()
     p1.input();
     p2.input();
     p1.show();
-    p2.show();
+    P2.show();
 }
