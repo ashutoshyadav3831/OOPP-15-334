@@ -24,6 +24,6 @@ int main()
     t1.input(10, 25, 30);
     t2.input(15, 40, 50);
 
-    t1.show();
+    t1.Show();
     t2.show();
 }
