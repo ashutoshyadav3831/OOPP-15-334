@@ -23,5 +23,5 @@ int main()
     Student S2("Ashutosh Yadav", 334, "CSE");
 
     S1.show();
-    S2.show();
+    s2.show();
 }
