@@ -1,13 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int byReference(int &x){
-   return x=x+x/10;
+
+void updateSalary(float &salary)
+{
+  salary = salary + (salary * 10 / 100);
 }
-int byPointer(int*x){
-  return  *x=*x+*x/10;
+
+void printSalary(float salary)
+{
+  cout << "Salary: " << salary << endl;
 }
-int main(){
-    int salary = 50000;
-    
-    return 0;
+
+int main()
+{
+  float salary = 50000;
+
+  updateSalary(salary);
+  printSalary(salary);
+
+  return 0;
 }
