@@ -6,7 +6,7 @@ using namespace std;
 class Item
 {
 public:
-    string name;
+    string Name;
     int quantity;
     double price;
 };
